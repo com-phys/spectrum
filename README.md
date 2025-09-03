@@ -16,7 +16,6 @@ This repository contains a Python script for calibrating Avantes and NIRQuest sp
 ## 1.	Clone the repository
 ## 2.  Install dependencies (numpy pandas matplotlib scipy openpyxl)
 ## 3.  Edit the script:
-
 •	Set the spec_path variable to the folder containing your measured spectra.
 •	Provide a reference spectrum as a 2-column array (wavelength, intensity).
 
