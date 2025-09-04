@@ -43,3 +43,5 @@ For Avantes, set kind="Avantes" and choose num="single" or num="scan" depending 
 	•	Automatically detects the overlap region and scales the first spectrum to match the second in that region.
 	•	Produces a final wavelength grid covering both spectra, with corrected intensities in the overlap region.
 	•	Use case: Combining NIR and VIS spectra from different spectrometers or fibers into a single calibrated spectrum.
+
+ 
