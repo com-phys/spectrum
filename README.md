@@ -35,6 +35,7 @@ For Avantes, set kind="Avantes" and choose num="single" or num="scan" depending 
 	•	Make sure your spectra are properly labeled to distinguish different fibers and spectrometers.
 
 # Spectrum Stitching Function
+
 ## •	A new function allows merging two spectra (with optional correction curves) into a single continuous spectrum.
 ## •	Features:
 	•	Applies corrections by multiplying the original intensity with the correction spectrum (if provided).
