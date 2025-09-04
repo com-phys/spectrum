@@ -33,3 +33,12 @@ For Avantes, set kind="Avantes" and choose num="single" or num="scan" depending 
 	•	NIRQuest spectra often have significant noise, which is why smoothing is applied.
 	•	The code works without additional data files—just provide your reference and measured spectra paths.
 	•	Make sure your spectra are properly labeled to distinguish different fibers and spectrometers.
+
+# Spectrum Stitching Function
+## •	A new function allows merging two spectra (with optional correction curves) into a single continuous spectrum.
+## •	Features:
+	•	Applies corrections by multiplying the original intensity with the correction spectrum (if provided).
+	•	Interpolates both spectra (and corrections) to a user-specified resolution.
+	•	Automatically detects the overlap region and scales the first spectrum to match the second in that region.
+	•	Produces a final wavelength grid covering both spectra, with corrected intensities in the overlap region.
+	•	Use case: Combining NIR and VIS spectra from different spectrometers or fibers into a single calibrated spectrum.
